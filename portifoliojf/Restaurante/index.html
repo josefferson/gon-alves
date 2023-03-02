@@ -1,0 +1,507 @@
+<html lang="pt-br"><head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- fav-icon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="img/png/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/png/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/png/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/png/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/png/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/png/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="img/png/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="img/png/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/png/apple-icon-180x180.png">
+  <link rel="icon" type="img/png" sizes="192x192" href="img/png/android-icon-192x192.png">
+  <link rel="icon" type="img/png" sizes="32x32" href="img/png/favicon-32x32.png">
+  <link rel="icon" type="img/png" sizes="96x96" href="img/png/favicon-96x96.png">
+  <link rel="icon" type="img/png" sizes="16x16" href="img/png/favicon-16x16.png">
+  <link rel="manifest" href="./img/png/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="./img/png/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!-- fav-icon -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous" defer=""></script>
+  <title>Principal</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-danger navbar-expand-lg">
+    <div class="container">
+      <a href="#" class="navbar-brand"><img src="img/png/logo.svg" alt="logo marca"> Restaurante</a>
+      <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link text-white link-warning">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a href="contato.html" class="nav-link text-white link-warning">Contato</a>
+          </li>
+        </ul>
+        <div class="ms-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="cadastro.html" class="nav-link text-white link-warning">Cadastrar-se</a>
+            </li>
+            <li class="nav-item">
+              <a href="logar.html" class="nav-link text-white link-warning">Logar</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link text-white link-warning"><i class="bi-cart4"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <div class="container">
+      <div class="carousel slide text-center" id="ads" data-bs-ride="carousel">
+        <ul class="carousel-indicators">
+          <li class="" data-bs-slide-to="0" data-bs-target="#ads"></li>
+          <li class="" data-bs-slide-to="1" data-bs-target="#ads"></li>
+          <li class="active" data-bs-slide-to="2" data-bs-target="#ads" aria-current="true"></li>
+          <li class="" data-bs-slide-to="3" data-bs-target="#ads"></li>
+        </ul>
+        <div class="carousel-inner carousel-fade">
+          <div class="carousel-item">
+            <img src="./img/banner/banner-1.svg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner/banner-2.svg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-item active">
+            <img src="./img/banner/banner-3.svg" alt="" class="img-fluid">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/banner/banner-4.svg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#ads">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#ads">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-12 col-md-5">
+          <form action="" class="justify-content-center justify-content-md-start">
+            <div class="input-group input-group-sm">
+              <input type="text" class="form-control form-control-sm" placeholder="busque pelo nome do produto">
+              <button class="btn btn-danger">Buscar</button>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-7 mt-3 mt-md-0">
+          <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+            <form action="" class="d-inline-block">
+              <select name="" id="" class="form-select form-select-sm">
+                <option value="">Ordenar pelo menor preço R$</option>
+                <option value="">Ordenar pelo maior preço R$</option>
+                <option value="">Ordenar pelo nome</option>
+              </select>
+            </form>
+
+            <nav class="d-inline-block me-3">
+              <div class="d-flex flex-row-reverse">
+                <ul class="pagination pagination-sm">
+                  <li class="page-item">
+                    <a href="#" class="page-link">1</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link">2</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link">3</a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link">4</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart-fill position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-com-fritas.svg" alt="file com fritas" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">File com fritas</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-com-fritas-acebolado.svg" alt="File com fritas acebolado" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">File com fritas acebolado</h6>
+              <small>R$ 49,90</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-frango-com-fritas.svg" alt="file de frango com fritas" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">File de frango com fritas</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-frango-com-fritas-acebolado.svg" alt="file de frango com fritas acebolado" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">File de frango com fritas acebolado</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/calabresa-com-fritas-arroz.svg" alt="calabresa com fritas e arroz" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">Calabresa com fritas e arroz</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/coxinha-de-frango-empanado.svg" alt="coxinha de frango empanado" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">Coxinha de frango empanado</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="text-bg-danger text-muted">
+                <button class="btn btn-danger" disabled="">
+                  Produto sem estoque
+                </button>
+              </form>
+              <small class="text-danger">Produto indisponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/frango-empanado-com-fritas-molho-rose.svg" alt="frango empanado com fritas e molho rose" class="card-img-top">
+            <div class="card-header">
+              <h6 class="card-title">
+                frango empanado com fritas e molho rose
+              </h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-de-peixe-com-fritas.svg" alt="file com fritas" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">File de peixe com fritas</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/file-de-peixe-com-fritas-e-salada.svg" alt="file com fritas" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">File de peixe com fritas e salada</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/peixe-empanado-com-fritas-e-molho.svg" alt="peixe empanado com fritas e molho" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">Peixe empanado com fritas e molho</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/carne-de-porco-frita-e-salada.svg" alt="carne de porco frita e salada" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">Carne de porco frita e salada</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-lg-3 col-md-4 col-sm-6">
+          <div class="card text-center">
+            <a href="#" class="text-danger"><i class="bi-suit-heart position-absolute end-0 me-2"></i></a>
+            <img src="./img/cardapio/bisteca-de-porco-assada.svg" alt="bisteca de porco assada" class="card-img-top">
+            <div class="card-header p-3">
+              <h6 class="card-title">Bisteca de porco assada</h6>
+              <small>R$ 45,00</small>
+            </div>
+            <div class="card-body">
+              <p class="card-text truncate">
+                <strong>Ingredientes:</strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam suscipit voluptatum voluptatibus aspernatur
+                reprehenderit totam natus recusandae unde quo a.
+              </p>
+            </div>
+            <div class="card-footer">
+              <form action="" class="bg-danger">
+                <button class="btn btn-danger">Adicionar ao carrinho</button>
+              </form>
+              <small class="text-success">Produto disponível</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex flex-row-reverse justify-content-center justify-content-md-start">
+        <form action="" class="d-inline-block">
+          <select name="" id="" class="form-select form-select-sm">
+            <option value="">Ordenar pelo menor preço R$</option>
+            <option value="">Ordenar pelo maior preço R$</option>
+            <option value="">Ordenar pelo nome</option>
+          </select>
+        </form>
+
+        <nav class="d-inline-block me-3">
+          <div class="d-flex flex-row-reverse">
+            <ul class="pagination pagination-sm">
+              <li class="page-item">
+                <a href="#" class="page-link">1</a>
+              </li>
+              <li class="page-item">
+                <a href="#" class="page-link">2</a>
+              </li>
+              <li class="page-item">
+                <a href="#" class="page-link">3</a>
+              </li>
+              <li class="page-item">
+                <a href="#" class="page-link">4</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-danger p-5 text-muted mt-2">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12 col-md-4">
+          <p class="text-white">© Restaurante - MEI - 2022</p>
+          <span class="text-white">Rua Sem Nome, S/N, <br>Virtualândia/ES</span>
+          <p class="text-white">CPNJ 99.999.999/0001-99</p>
+        </div>
+        <div class="col-12 col-md-4 my-3 my-md-0">
+          <p>
+            <a href="politica-de-privacidade.html" class="text-decoration-none text-white">Política de Privacidade</a>
+          </p>
+          <p>
+            <a href="termo-de-uso.html" class="text-decoration-none text-white">Termo de Uso</a>
+          </p>
+          <p>
+            <a href="quem-somos.html" class="text-decoration-none text-white">Quem Somos</a>
+          </p>
+          <p>
+            <a href="trocas-devolucoes.html" class="text-decoration-none text-white">Trocas e Devoluções</a>
+          </p>
+        </div>
+        <div class="col-12 col-md-4">
+          <p class="text-white">
+            <i class="bi-telephone-fill"></i> Contato pelo site
+          </p>
+          <p>
+            <i class="bi-mailbox text-primary"></i><a href="mailto:email@restaurante.com.br" class="text-white text-decoration-none">
+              email@restaurante.com.br</a>
+          </p>
+          <p>
+            <i class="bi-whatsapp text-success"></i><a href="https://wa.me/552799990000" class="text-decoration-none text-white" target="_blank">
+              Telefone: (27) 9999-0000</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+</body></html>
